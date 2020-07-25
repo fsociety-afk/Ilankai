@@ -1,0 +1,48 @@
+.link .flair {
+	font-size: 0px;
+}
+.flair,
+.noncollapsed .voteWeight+.userattrs::before,
+.noncollapsed .author+.userattrs::before,
+.noncollapsed .RESUserTag+.userattrs::before {
+	background: url(%%flair%%) no-repeat;
+	background-size: auto 180px;
+	border: 0;
+	height: 20px;
+	line-height: 20px;
+	padding: 0;
+	vertical-align: middle;
+	white-space: nowrap;
+	font-size: 0px;
+	overflow: hidden;
+	-webkit-transition: all 0.5s;
+	-webkit-transition-delay: 1s;
+	transition: all 0.5s;
+	transition-delay: 1s;
+}
+.flair:hover,
+.noncollapsed .voteWeight+.userattrs:hover::before,
+.noncollapsed .author+.userattrs:hover::before,
+.noncollapsed .RESUserTag+.userattrs:hover::before {
+	font-size: 14px;
+	max-width: 500px;
+	padding: 0 1px;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+	overflow: visible;
+}
+.flair,
+.linkflairlabel {
+	background-color: #eee !important;
+	border: 1px solid #ddd !important;
+	border-radius: 3px;
+}
+.flair-North {background-position: 0 0; text-indent: 40px; min-width: 36px;}
+.flair-NorthCentral {background-position: 0 -20px; text-indent: 38px; min-width: 34px;}
+.flair-NorthWest {background-position: 0 -40px; text-indent: 44px; min-width: 40px;}
+.flair-Central {background-position: 0 -60px; text-indent: 36px; min-width: 31px;}
+.flair-East {background-position: 0 -80px; text-indent: 36px; min-width: 32px;}
+.flair-West {background-position: 0 -100px; text-indent: 48px; min-width: 44px;}
+.flair-Sabaragamuwa {background-position: 0 -120px; text-indent: 46px; min-width: 33px;}
+.flair-Uva {background-position: 0 -140px; text-indent: 38px; min-width: 30px;}
+.flair-South {background-position: 0 -160px; text-indent: 40px; min-width: 34px;}

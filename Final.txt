@@ -1,0 +1,334 @@
+body {
+	color: #262626;
+	font-family: Calibri, "Trebuchet MS", verdana, sans-serif !important;
+	font-size: small;
+}
+#header {
+	height: 100px;
+	border-bottom: none;
+	background: url(%%banner%%) no-repeat 0% 55%;
+	background-size: 100%;
+}
+/* logo image produced by /u/bonez656 */
+#header .pagename.redditname a {
+	background: url(%%logo%%) 0 0 no-repeat;
+	display: inline-block;
+	height: 45px;
+	width: 183px;
+	left: 83px;
+	position: absolute;
+	text-indent: -9999px;
+	bottom: 27px;
+}
+#header .pagename.redditname a:hover {
+	background-position: 0 -45px;
+}
+#header .pagename.redditname a:active {
+	background-position: 0 -90px;
+}
+#header .pagename.redditname a {
+	position: absolute;
+}
+#header-bottom-left {
+	position: absolute;
+	bottom: 0;
+}
+#header-bottom-left .tabmenu {
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0;
+	font-size: small;
+}
+#header-bottom-left .tabmenu li {
+	display: block;
+	margin: 0 5px;
+}
+@media (max-width: 1100px) {
+	#header-bottom-left .tabmenu li:nth-child(1n+3) {
+		display: none;
+	}
+}
+#header-bottom-left .tabmenu li a:hover,
+#header-bottom-left .tabmenu li a:focus {
+	color: #4D4D55;
+}
+#header-bottom-left .tabmenu li.selected a {
+	color: #4D4D55;
+}
+#header-bottom-right .user {
+	color: #fff !important;
+}
+#header-bottom-right {
+	border: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-image: url(%%usersettings-gradient%%);
+	background-color: transparent;
+	margin: 0;
+}
+body.res-nightmode #header-bottom-right {
+	background-color: transparent !important;
+}
+#header-bottom-right a {
+	color: #fff !important;
+}
+#header-bottom-right a:hover {
+	text-decoration: none;
+	color: #FF6600 !important;
+}
+.pref-lang {
+	font-weight: 400;
+}
+@media (max-width: 1100px) {
+	#header-bottom-right form {
+		display: none;
+	}
+}
+.tabmenu {
+	margin-bottom: -1px;
+	margin-left: 12px !important;
+}
+#header .tabmenu li a {
+	background-image: url(%%tabmenu-gradient%%);
+	background-color: transparent !important;
+	border-bottom-color: #fff !important;
+	border-width: 1px;
+}
+#header .tabmenu li a:link,
+#header .tabmenu li a:visited {
+	text-decoration: none;
+	color: #fff !important;
+}
+
+#header .tabmenu li a:active {
+	text-decoration: none;
+	color: #999!important;
+}
+
+#header .tabmenu li a:hover {
+	text-decoration: none;
+	color: #FF6600 !important;
+	border: none;
+	background-color: #fff !important;
+	background: none;
+}
+#header .tabmenu li.selected a:link,
+#header .tabmenu li.selected a:visited,
+#header .tabmenu li.selected a:active,
+#header .tabmenu li.selected a:hover {
+	text-decoration: none;
+	color: #FF6600 !important;
+}
+#header .tabmenu li.selected a,
+.tabmenu li.selected a {
+	border: none;
+	background-color: #fff !important;
+	background: none;
+}
+.tabmenu.formtab .selected a {
+	color: white;
+	background-color: #5f99cf!important;
+	border: 1px solid #c1c1c1;
+	border-bottom: none;
+}
+.side .titlebox {
+	border-top: 1px solid #ccd1d5;
+}
+.side h1.redditname a {
+	display: inline-block;
+	text-transform: capitalize;
+	font-weight: 400;
+	font-family: Bahnschrift, Euphemia;
+}
+.side .md [href*="search?q=flair"] {
+	display: inline-block;
+	padding: 5px 5px;
+	font-weight: bold;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 3px;
+	width: 45%;
+	text-align: center;
+	margin: 2px 0 0 1px;
+	font-family: Arial, helvetica, sans-serif;
+}
+.side .usertext-body {
+	border: 0px;
+	font-size: 12px;
+	font-family: "Trebuchet MS";
+}
+.side .usertext-body a {
+	color: #000;
+	font-weight: bold;
+	font-size: 11px;
+}
+.side .usertext-body a:hover {
+	color: #1E90FF;
+}
+.titlebox .age {
+	float: none;
+	font: menu;
+}
+.sidecontentbox .content {
+	font-size: small;
+}
+.linkflairlabel {
+	border: 0 solid;
+	margin-right: .5em;
+}
+.linkflair .linkflairlabel {
+	padding: 0px 6px 0px 6px;
+	color: white;
+	font-weight: bold;
+	font-size: 11px;
+	border-radius: 6px;
+	position: relative;
+	display: inline!important;
+}
+.linkflair-article .linkflairlabel {
+	background-color: #3498db;
+}
+.linkflair-civilwar .linkflairlabel {
+	background-color: #e74c3c;
+}
+.linkflair-culture .linkflairlabel {
+	background-color: #9b59b6;
+}
+.linkflair-economy .linkflairlabel {
+	background-color: #1abc9c;
+}
+.linkflair-news .linkflairlabel {
+	background-color: #34495e;
+}
+.linkflair-travel .linkflairlabel {
+	background-color: #e67e22;
+}
+.linkflair-video .linkflairlabel {
+	background-color: #f1c40f;
+}
+.link .flair {
+	font-size: 0px;
+}
+.flair,
+.noncollapsed .voteWeight+.userattrs::before,
+.noncollapsed .author+.userattrs::before,
+.noncollapsed .RESUserTag+.userattrs::before {
+	background: url(%%flair%%) no-repeat;
+	background-size: auto 180px;
+	border: 0;
+	height: 20px;
+	line-height: 20px;
+	padding: 0;
+	vertical-align: middle;
+	white-space: nowrap;
+	font-size: 0px;
+	overflow: hidden;
+	-webkit-transition: all 0.5s;
+	-webkit-transition-delay: 1s;
+	transition: all 0.5s;
+	transition-delay: 1s;
+}
+.flair:hover,
+.noncollapsed .voteWeight+.userattrs:hover::before,
+.noncollapsed .author+.userattrs:hover::before,
+.noncollapsed .RESUserTag+.userattrs:hover::before {
+	font-size: 14px;
+	max-width: 500px;
+	padding: 0 1px;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+	overflow: visible;
+}
+.flair {
+	background-color: #eee !important;
+	border: 1px solid #ddd !important;
+	border-radius: 3px;
+}
+/* flair image produced by /u/gavin19 */
+.flair-North {background-position: 0 0; text-indent: 40px; min-width: 36px;}
+.flair-NorthCentral {background-position: 0 -20px; text-indent: 38px; min-width: 34px;}
+.flair-NorthWest {background-position: 0 -40px; text-indent: 44px; min-width: 40px;}
+.flair-Central {background-position: 0 -60px; text-indent: 36px; min-width: 31px;}
+.flair-East {background-position: 0 -80px; text-indent: 36px; min-width: 32px;}
+.flair-West {background-position: 0 -100px; text-indent: 48px; min-width: 44px;}
+.flair-Sabaragamuwa {background-position: 0 -120px; text-indent: 46px; min-width: 33px;}
+.flair-Uva {background-position: 0 -140px; text-indent: 38px; min-width: 30px;}
+.flair-South {background-position: 0 -160px; text-indent: 40px; min-width: 34px;}
+.sr-list,
+.dropdown.srdrop .selected {
+	font-size: 9px;
+	font-family: BentonSans, sans-serif;
+	font-weight: bold;
+}
+.users-online,
+span.subscribers,
+.fancy-toggle-button {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	color: black;
+}
+.tagline,
+.search-result-meta {
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif!important;
+}
+.search-result-listing {
+	font-size: unset;
+}
+.link .flat-list {
+	font-variant: small-caps;
+}
+.menuarea .spacer {
+	text-transform: capitalize;
+}
+.commentarea .menuarea {
+	font-size: 90%;
+}
+.combined-search-page .linkflairlabel {
+	color: white;
+	max-width: 100%;
+}
+.commentarea .usertext .bottom-area {
+	position: static;
+}
+.commentarea .usertext .usertext-edit .bottom-area:before {
+	margin-top: 3px;
+	content: "Note: We may remove bigoted or hateful comments, including those directed towards any race, religion, ethnic group, nationality, gender, or sexual orientation. Repeat offenders may be banned.";
+	display: block;
+	padding: 5px;
+	background-color: rgb(206, 227, 248);
+	border: 2px solid rgb(95, 153, 207);
+	font-size: 13px;
+	font-weight: inherit;
+}
+.footer-parent {
+	font-size: small;
+}
+.footer {
+	background: lightgrey;
+}
+#header-img.default-header {
+	text-indent: -9999px;
+	background-position: 40px -1323px;
+	background-repeat: no-repeat;
+	height: 45px;
+	width: 76px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-bottom: 7px;
+}
+.hover-bubble {
+	font-family: arial, sans-serif;
+	font-size: 11px;
+}
+/***** Maaveerar Naal
+.listing-page, .comments-page {
+	background: url(%%WeRemember%%) no-repeat fixed center center;
+}
+.thing a.title:hover,
+:visited:hover,
+.combined-search-page a.search-title:hover {
+	color: darkred !important;
+	background-color: #ffffcc !important;
+	text-decoration: none !important;
+}*****/

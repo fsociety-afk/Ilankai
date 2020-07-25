@@ -1,0 +1,13 @@
+To Change Colour
+Use Inkscape / Illustrator {Always use Paint Bucket Tool}
+
+For 240px {Perfectly Centered}
+X: 135.00 px {Left / Right}
+Y: 128.50 px {Up / Down}
+
+To Export Project
+1. Use Illustrator to save project as PDF {Important}
+2. Create New Document {256*256} + Add New Layer 
+2. Import PDF into Photoshop
+3. Check if image is Positioned Correctly
+4. Export Image as Png with Transparency Grid

@@ -1,0 +1,27 @@
+﻿article
+
+கட்டுரை (Article)
+
+civilwar
+
+உள்நாட்டுப் போர் (Civil War)
+
+culture
+
+கலாச்சாரம் (Culture)
+
+economy
+
+வளர்ச்சி (Economy & Development)
+
+news
+
+செய்தி (News)
+
+travel
+
+பயணக் கேள்விகள் (Travel Questions)
+
+video
+
+காணொளி (Video)
